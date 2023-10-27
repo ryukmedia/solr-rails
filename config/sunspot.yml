@@ -1,0 +1,22 @@
+production:
+  solr:
+    hostname: us-east-1.websolr.com
+    port: 443
+    scheme: https
+    path: /solr/cb80d5a1e273
+
+
+development:
+  solr:
+    hostname: us-east-1.websolr.com
+    port: 443
+    scheme: https
+    path: /solr/cb80d5a1e273
+
+
+test:
+  solr:
+    hostname: us-east-1.websolr.com
+    port: 443
+    scheme: https
+    path: /solr/cb80d5a1e273
