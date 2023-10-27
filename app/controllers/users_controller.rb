@@ -85,4 +85,9 @@ class UsersController < ApplicationController
         :city, :zip_code, :company, :company_description
       )
     end
+
+    def search
+      @results = User.search { fulltext "#{params[:q]}"}.results 
+    end
+
 end
